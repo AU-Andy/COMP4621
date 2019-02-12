@@ -1,4 +1,4 @@
-Get source repository.
+If you have not cloned the repository, please input the following command:
 ```
 git clone https://github.com/HydraZeng/COMP4621-2019S.git
 ```
