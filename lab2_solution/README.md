@@ -1,11 +1,11 @@
-ource repository.
+Get source repository.
 ```
-git clone https://github.com/snowzjx/COMP4621-2018S.git
+git clone https://github.com/HydraZeng/COMP4621-2019S.git
 ```
 
 Move to directory of lab 2 solution and compile:
 ```
-cd COMP4621-2018S/lab2_solution
+cd COMP4621-2019S/lab2_solution
 gcc client.c -o client
 gcc server.c -o server
 ```
