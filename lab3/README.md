@@ -19,3 +19,4 @@ To run the program
 ./pthread_server
 ```
 
+You can use the client in lab2 to build the connection
