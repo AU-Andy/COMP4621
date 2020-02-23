@@ -1,15 +1,15 @@
 Get source repository.
 ```
-git clone https://github.com/HydraZeng/COMP4621-2019S.git
+git clone https://github.com/HydraZeng/COMP4621.git
 ```
 
 Move to directory of lab 1 and compile:
 ```
-cd COMP4621-2019S/lab1
-gcc client.c -o client.o
+cd COMP4621/lab1
+gcc client.c -o client
 ```
 
-To run client.o
+To run client and save as file
 ```
-./client.o
+./client > a.html
 ```

@@ -1,11 +1,11 @@
 If you have not cloned the repository, please input the following command:
 ```
-git clone https://github.com/HydraZeng/COMP4621-2019S.git
+git clone https://github.com/HydraZeng/COMP4621.git
 ```
 
 Move to directory of lab 2 solution and compile:
 ```
-cd COMP4621-2019S/lab2_solution
+cd COMP4621/lab2_solution
 gcc client.c -o client
 gcc server.c -o server
 ```

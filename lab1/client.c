@@ -6,6 +6,9 @@
 
 #define MAXLINE 100
 
+char* request = "hello\r\n\r\n";
+//char* request = "GET / HTTP/1.0\r\n\r\n";
+
 int main()
 {
         int sockfd, n;
@@ -23,7 +26,7 @@ int main()
         /* init server address (IP : port) */
         memset(&servaddr, 0, sizeof(servaddr));
         servaddr.sin_family = AF_INET;
-        servaddr.sin_addr.s_addr = inet_addr("172.217.163.238");
+        servaddr.sin_addr.s_addr = inet_addr("172.217.25.14");
         servaddr.sin_port = htons(80);
 
         /* connect to the server */
@@ -32,7 +35,7 @@ int main()
         }
 
         /* constrct the request */
-        snprintf(writeline, sizeof(writeline) - 1, "GET / HTTP/1.0\r\n\r\n");
+        snprintf(writeline, sizeof(writeline) - 1, request);
 
         /* send the request */
         write(sockfd, writeline, strlen(writeline));
